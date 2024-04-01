@@ -21,7 +21,7 @@ To get started with the practical session, follow these steps:
 
     conda activate sounds4th
 
-    conda install conda-forge::'ffmpeg<7' python-sounddevice scikit-learn seaborn pandas
+    conda install 'ffmpeg<7' python-sounddevice scikit-learn seaborn pandas -c conda-forge
 
     conda install pytorch::pytorch torchaudio ignite -c pytorch
 
