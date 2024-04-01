@@ -17,15 +17,13 @@ To get started with the practical session, follow these steps:
 
 2. Install the required dependencies by running the following command:
     
-conda create --name sounds4th python=3.10
+    conda create --name sounds4th python==3.10 ipykernel notebook matplotlib tqdm scipy tensorboard
 
-conda activate sounds4th
+    conda activate sounds4th
 
-conda install ipykernel notebook matplotlib tqdm scipy tensorboard
+    conda install conda-forge::'ffmpeg<7' python-sounddevice scikit-learn seaborn pandas
 
-conda install conda-forge::'ffmpeg<7' python-sounddevice scikit-learn seaborn pandas
-
-conda install pytorch::pytorch torchaudio ignite -c pytorch
+    conda install pytorch::pytorch torchaudio ignite -c pytorch
 
 ## Topics Covered
 
