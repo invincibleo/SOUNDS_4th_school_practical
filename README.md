@@ -11,7 +11,7 @@ To get started with the practical session, follow these steps:
 1. Clone this repository to your local machine.
 2. Create and activate a conda environment
 
-    conda create --name sounds4th python==3.10 ipykernel notebook matplotlib tqdm scipy tensorboard
+    conda create --name sounds4th python==3.10.13 ipykernel notebook matplotlib tqdm scipy tensorboard
 
     conda activate sounds4th
 
